@@ -16,34 +16,37 @@ This application is a **pixel-accurate clone** of a provided Figma prototype, im
 
 ## 📁 Folder Structure
 
+## 📁 Folder Structure
+
+```
 ICE-CREAM/
 │
-├── public/ # Public assets
-│ ├── Blueberry.png
-│ ├── Chocolate.png
-│ ├── Evergreen.png
-│ ├── Strawberry.png
-│ └── vite.svg
+├── public/                  # Public assets
+│   ├── Blueberry.png
+│   ├── Chocolate.png
+│   ├── Evergreen.png
+│   ├── Strawberry.png
+│   └── vite.svg
 │
 ├── src/
-│ ├── assets/ # Internal static assets
-│ │ └── react.svg
-│ │
-│ ├── components/ # Reusable UI components
-│ │ ├── Header.jsx
-│ │ ├── IceCreams.jsx
-│ │ ├── LargeIceCreamAtBottom.jsx
-│ │
-│ ├── Context/ # React Context for shared state
-│ │ └── Flavour.jsx
-│ │
-│ ├── pages/ # Application page views
-│ │ └── IceCreamLanding.jsx
-│ │
-│ ├── App.jsx # Root component
-│ ├── App.css
-│ ├── index.css # Global styles
-│ └── main.jsx # Entry point
+│   ├── assets/              # Internal static assets
+│   │   └── react.svg
+│   │
+│   ├── components/          # Reusable UI components
+│   │   ├── Header.jsx
+│   │   ├── IceCreams.jsx
+│   │   ├── LargeIceCreamAtBottom.jsx
+│   │
+│   ├── Context/             # React Context for shared state
+│   │   └── Flavour.jsx
+│   │
+│   ├── pages/               # Application page views
+│   │   └── IceCreamLanding.jsx
+│   │
+│   ├── App.jsx              # Root component
+│   ├── App.css
+│   ├── index.css            # Global styles
+│   └── main.jsx             # Entry point
 │
 ├── .gitignore
 ├── index.html
@@ -53,6 +56,7 @@ ICE-CREAM/
 ├── tailwind.config.js
 ├── eslint.config.js
 └── README.md
+```
 
 yaml
 Copy
